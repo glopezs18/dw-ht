@@ -4,7 +4,7 @@
   "description": "Hoja de trabajo No. 4",
   "main": "src/server.js",
   "scripts": {
-    "des": "nodemon --exec node src/server.js",
+    "start": "nodemon --exec node src/server.js",
     "pro": "webpack --progress"
   },
   "author": "Giancarlo López",
