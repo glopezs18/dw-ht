@@ -1,0 +1,12 @@
+.btn-add-student, .btn-add-score {
+    margin-top: 7px;
+}
+
+table th,
+table td {
+    text-align: center !important;
+}
+
+.text-right{
+    text-align: right;
+}
