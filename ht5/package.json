@@ -1,0 +1,21 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "El siguiente proyecto busca facilitar la estructura de una API básica ",
+  "main": "nodemon index.js",
+  "scripts": {
+    "startnpm": "node index.js"
+  },
+  "keywords": [
+    "API"
+  ],
+  "author": "Desarrollo Web",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "store": "^2.0.12"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
