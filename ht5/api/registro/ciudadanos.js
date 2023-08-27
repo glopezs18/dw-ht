@@ -55,7 +55,8 @@ citizen.put('/:dpi', function (req, res) {
 // 4. Eliminación de ciudadanos por defunción:
 citizen.delete('/:dpi', function (req, res) {
     const dpi = req.params.dpi;
-
+    const citizen = citizens.find(c => c.id === dpi);
+    if(!citizen) return res.status(402).send('No se encontró el registro solicitado');
     //Encuentra el índice de un objeto específico usando el método findIndex.  
     const objIndex = citizens.findIndex((obj => obj.dpi == dpi));
 
