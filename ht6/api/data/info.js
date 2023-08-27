@@ -20,7 +20,7 @@ const dataSchema = new mongoose.Schema({
     YR2019: Number
 })
 
-const dataModel = mongoose.model("cargadatosht6", dataSchema)
+const dataModel = mongoose.model("CargaDatosHT6", dataSchema)
 
 // All Data Info
 infoData.get('/', function (req, res) {
