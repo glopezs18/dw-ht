@@ -1,0 +1,15 @@
+@import "variables.scss";
+
+.header-logo {
+    width: 130px;
+}
+
+.bg-header {
+    background: $bg-header;
+
+    a {
+        span {
+            color: #fff;
+        }
+    }
+}
