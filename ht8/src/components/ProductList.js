@@ -13,7 +13,7 @@ class ArticleList extends Component {
                         <h2>{product.title}</h2>
                         <p>{product.description}</p>
                         <div className="article-footer">
-                            <span>{product.price}</span>
+                            <span>Q{product.price}</span>
                         </div>
                     </div>
                 </div>
