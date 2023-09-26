@@ -8,16 +8,8 @@ dataLogin.use(express.json());
 
 mongoose.connect('mongodb://127.0.0.1:27017/ht7')
 
-// const dataSchema = new mongoose.Schema({
-//     usuario: String,
-//     clave: String,
-//     dpi: String
-// })
-
-// const dataModel = mongoose.model("jwtht7", loginSchema)
-
 // Get data
-dataLogin.get('/', verifyToken,function (req, res) {
+dataLogin.get('/', verifyToken, function (req, res) {
 
     jwt.verify(req.token, 'secretkey', (error, authData) => {
         if (error) {

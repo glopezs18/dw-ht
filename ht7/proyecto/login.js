@@ -8,14 +8,6 @@ login.use(express.json());
 
 mongoose.connect('mongodb://127.0.0.1:27017/ht7')
 
-// const loginSchema = new mongoose.Schema({
-//     usuario: String,
-//     clave: String,
-//     dpi: String
-// })
-
-// const loginModel = mongoose.model("jwtht7", loginSchema)
-
 //Api Main
 login.get("/", (req, res) => {
     res.json({

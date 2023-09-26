@@ -1,124 +1,204 @@
 const data = [
 	{
-		id: 1,
-		image:
-			'https://samuelkraft.com/_next/image?url=%2Fblog%2Fvanilla-extract-with-next-themes%2Fimage.png&w=1080&q=75',
-		title: 'Using Vanilla Extract with next-themes',
-		category: 'Javascript',
-		description: 'How to apply vanilla extract themes to Next.js apps',
-		date: 'Published on Dec 17, 2021',
-		ReadingTime: '5 min read',
+		"id": 1,
+		"title": "Leche Entera",
+		"description": "Leche fresca y nutritiva",
+		"category": "Lácteos",
+		"price": 2.99,
+		"image": "https://example.com/leche.jpg"
 	},
 	{
-		id: 2,
-		image:
-			'https://samuelkraft.com/_next/image?url=%2Fblog%2Fradix-ui-styling-with-css%2Fimage.png&w=1080&q=75',
-		title: 'Styling Radix UI with CSS',
-		category: 'CSS',
-		description:
-			'Quick tip for styling Radix Primitives with plain CSS, CSS Modules, Vanilla Extract and more',
-		date: 'Published on Dec 14, 2021',
-		ReadingTime: '3 min read',
+		"id": 2,
+		"title": "Yogur Natural",
+		"description": "Yogur sin azúcar añadida",
+		"category": "Lácteos",
+		"price": 1.29,
+		"image": "https://example.com/yogur.jpg"
 	},
 	{
-		id: 3,
-		image:
-			'https://samuelkraft.com/_next/image?url=%2Fblog%2Ffractional-svg-stars-css%2Fimage.png&w=1080&q=75',
-		title: 'Fractional SVG stars with CSS',
-		category: 'CSS',
-		description:
-			'Create a rating component with svg stars that support fractional values.',
-		date: 'Published on Sep 06, 2021',
-		ReadingTime: '4 min read',
+		"id": 3,
+		"title": "Queso Cheddar",
+		"description": "Queso cheddar maduro",
+		"category": "Lácteos",
+		"price": 4.99,
+		"image": "https://example.com/queso.jpg"
 	},
 	{
-		id: 4,
-		image:
-			'https://samuelkraft.com/_next/image?url=%2Fblog%2Fresponsive-animation-framer-motion%2Fimage.png&w=1080&q=75',
-		title: 'Responsive Animations with Framer Motion',
-		category: 'Javascript',
-		description:
-			'How to write responsive variants with media queries in javascript',
-		date: 'Published on Jun 09, 2021',
-		ReadingTime: '3 min read',
+		"id": 4,
+		"title": "Mantequilla",
+		"description": "Mantequilla cremosa",
+		"category": "Lácteos",
+		"price": 2.79,
+		"image": "https://example.com/mantequilla.jpg"
 	},
 	{
-		id: 5,
-		image:
-			'https://samuelkraft.com/_next/image?url=%2Fblog%2Fbuilding-a-notion-blog-with-public-api%2Fimage.png&w=1080&q=75',
-		title: 'Building a blog with Notions public API',
-		category: 'Next.js',
-		description:
-			'How to use Notion as a CMS using their public API and Next.js',
-		date: 'Published on May 16, 2021',
-		ReadingTime: '10 min read',
+		"id": 5,
+		"title": "Huevos",
+		"description": "Docena de huevos frescos",
+		"category": "Lácteos",
+		"price": 2.49,
+		"image": "https://example.com/huevos.jpg"
 	},
 	{
-		id: 6,
-		image:
-			'https://samuelkraft.com/_next/image?url=%2Fblog%2Fmapbox-static-image-api%2Fimage.png&w=1920&q=75',
-		title: 'Generating Open Graph images with Mapbox & Canvas',
-		category: 'Node.js',
-		description:
-			'How to use Mapbox static image API and Node Canvas to generate custom sharing images',
-		date: 'Published on May 09, 2021',
-		ReadingTime: '8 min read',
+		"id": 6,
+		"title": "Pan Integral",
+		"description": "Pan saludable con granos enteros",
+		"category": "Panadería",
+		"price": 1.99,
+		"image": "https://example.com/pan_integral.jpg"
 	},
 	{
-		id: 7,
-		image:
-			'https://samuelkraft.com/_next/image?url=%2Fblog%2Ftrailroutes%2Fimage.png&w=1920&q=75',
-		title: 'Building a mapping platform with React and Mapbox GL',
-		category: 'React',
-		description:
-			'How I built my side project Trail Routes',
-		date: 'Published on Apr 19, 2021',
-		ReadingTime: '9 min read',
+		"id": 7,
+		"title": "Galletas de Chocolate",
+		"description": "Galletas con trozos de chocolate",
+		"category": "Panadería",
+		"price": 2.99,
+		"image": "https://example.com/galletas.jpg"
 	},
 	{
-		id: 8,
-		image:
-			'https://samuelkraft.com/_next/image?url=%2Fblog%2Fspring-parallax-framer-motion-guide%2Fbg.png&w=828&q=75',
-		title: 'Spring-based Parallax with Framer motion: Step by step',
-		category: 'React',
-		description:
-			'A guide on creating a spring-based Parallax scrolling effect using Framer Motion and React',
-		date: 'Published on Mar 15, 2021 ',
-		ReadingTime: '8 min read',
+		"id": 8,
+		"title": "Pan de Centeno",
+		"description": "Pan de centeno recién horneado",
+		"category": "Panadería",
+		"price": 3.49,
+		"image": "https://example.com/pan_centeno.jpg"
 	},
 	{
-		id: 9,
-		image:
-			'https://samuelkraft.com/_next/image?url=%2Fblog%2Fios-chat-bubbles-css%2Fimage.png&w=1920&q=75',
-		title: 'How to create iOS chat bubbles in CSS',
-		category: 'CSS',
-		description:
-			'Creating a chat messaging app ui with CSS (with a sprinkle of JS and Framer Motion)',
-		date: 'Published on Feb 20, 2021',
-		ReadingTime: '8 min read',
+		"id": 9,
+		"title": "Bagels de Queso",
+		"description": "Bagels con queso suave",
+		"category": "Panadería",
+		"price": 2.49,
+		"image": "https://example.com/bagels.jpg"
 	},
 	{
-		id: 10,
-		image:
-			'https://samuelkraft.com/_next/image?url=%2Fblog%2Fgit-newmr%2Fimage.png&w=1920&q=75',
-		title: 'My favorite productivity hack: git newmr',
-		category: 'Git',
-		description:
-			'Using git aliases to automate repetitive tasks',
-		date: 'Published on Feb 07, 2021 ',
-		ReadingTime: '4 min read',
+		"id": 10,
+		"title": "Donas Glaseadas",
+		"description": "Donas con glaseado dulce",
+		"category": "Panadería",
+		"price": 1.79,
+		"image": "https://example.com/donas_glaseadas.jpg"
 	},
 	{
-		id: 11,
-		image:
-			'https://samuelkraft.com/_next/image?url=%2Fblog%2Fpersonal-website-with-next-and-notion%2Fimage.png&w=1920&q=75',
-		title: 'Building my personal website with Next.js backed by Notion',
-		category: 'Next.js',
-		description:
-			'My experience rebuilding my personal website with Next.js & Typescript backed by Notion',
-		date: 'Published on Jan 21, 2021',
-		ReadingTime: '6 min read',
+		"id": 11,
+		"title": "Manzanas",
+		"description": "Manzanas frescas y jugosas",
+		"category": "Frutas",
+		"price": 0.99,
+		"image": "https://example.com/manzanas.jpg"
 	},
+	{
+		"id": 12,
+		"title": "Peras",
+		"description": "Peras frescas y jugosas",
+		"category": "Frutas",
+		"price": 1.29,
+		"image": "https://example.com/peras.jpg"
+	},
+	{
+		"id": 13,
+		"title": "Plátanos",
+		"description": "Plátanos maduros y listos para comer",
+		"category": "Frutas",
+		"price": 0.79,
+		"image": "https://example.com/platanos.jpg"
+	},
+	{
+		"id": 14,
+		"title": "Fresas",
+		"description": "Fresas frescas y deliciosas",
+		"category": "Frutas",
+		"price": 3.99,
+		"image": "https://example.com/fresas.jpg"
+	},
+	{
+		"id": 15,
+		"title": "Naranjas",
+		"description": "Naranjas jugosas y llenas de vitamina C",
+		"category": "Frutas",
+		"price": 1.29,
+		"image": "https://example.com/naranjas.jpg"
+	},
+	{
+		"id": 16,
+		"title": "Pechuga de Pollo",
+		"description": "Pechuga de pollo sin hueso y piel",
+		"category": "Carnes",
+		"price": 6.49,
+		"image": "https://example.com/pollo.jpg"
+	},
+	{
+		"id": 17,
+		"title": "Salmón Fresco",
+		"description": "Filete de salmón fresco del Atlántico",
+		"category": "Carnes",
+		"price": 9.99,
+		"image": "https://example.com/salmon.jpg"
+	},
+	{
+		"id": 18,
+		"title": "Carne Molida de Res",
+		"description": "Carne molida de res magra",
+		"category": "Carnes",
+		"price": 7.99,
+		"image": "https://example.com/carne_molida.jpg"
+	},
+	{
+		"id": 19,
+		"title": "Pollo Entero",
+		"description": "Pollo entero fresco",
+		"category": "Carnes",
+		"price": 5.99,
+		"image": "https://example.com/pollo_entero.jpg"
+	},
+	{
+		"id": 20,
+		"title": "Pavo Ahumado",
+		"description": "Pavo ahumado de calidad premium",
+		"category": "Carnes",
+		"price": 8.49,
+		"image": "https://example.com/pavo_ahumado.jpg"
+	},
+	{
+		"id": 21,
+		"title": "Café Molido",
+		"description": "Café tostado y molido",
+		"category": "Bebidas",
+		"price": 4.49,
+		"image": "https://example.com/cafe.jpg"
+	},
+	{
+		"id": 22,
+		"title": "Cerveza IPA",
+		"description": "Cerveza India Pale Ale artesanal",
+		"category": "Bebidas",
+		"price": 5.99,
+		"image": "https://example.com/cerveza_ipa.jpg"
+	},
+	{
+		"id": 23,
+		"title": "Agua Mineral",
+		"description": "Agua mineral natural sin gas",
+		"category": "Bebidas",
+		"price": 1.99,
+		"image": "https://example.com/agua_mineral.jpg"
+	},
+	{
+		"id": 24,
+		"title": "Refresco de Cola",
+		"description": "Refresco de cola clásico",
+		"category": "Bebidas",
+		"price": 2.49,
+		"image": "https://example.com/refresco_cola.jpg"
+	},
+	{
+		"id": 25,
+		"title": "Jugo de Naranja",
+		"description": "Jugo de naranja fresco y natural",
+		"category": "Bebidas",
+		"price": 3.99,
+		"image": "https://example.com/jugo_naranja.jpg"
+	}
 ];
 
 export default data;

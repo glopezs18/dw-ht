@@ -13,8 +13,7 @@ class ArticleList extends Component {
                         <h2>{product.title}</h2>
                         <p>{product.description}</p>
                         <div className="article-footer">
-                            <span>{product.date} · </span>
-                            <span>{product.ReadingTime}</span>
+                            <span>{product.price}</span>
                         </div>
                     </div>
                 </div>
