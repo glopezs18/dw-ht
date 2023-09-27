@@ -1,6 +1,6 @@
 ## Instalación
 
-### `npm start`
+### `npm install`
 
 Instala todas las dependencias necesarias que el proyecto en react necesita para poder funcionar bien.
 
