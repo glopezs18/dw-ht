@@ -1,3 +1,13 @@
+## Descripción de Hoja de trabajo No. 8
+
+Este proyecto consiste en una página de aterrizaje construida utilizando React, un potente marco de trabajo de JavaScript para construir interfaces de usuario interactivas y reactivas. La página cuenta con una sección de productos que proporciona a los usuarios una selección de productos para explorar.
+
+El punto focal del proyecto es la implementación de un sistema de filtros por categorías de productos. Esto permite a los usuarios refinar su búsqueda y encontrar productos específicos de manera eficiente.
+
+Una de las principales técnicas utilizadas en este proyecto es el patrón de diseño "render props". Esto facilita la reutilización de código entre diferentes componentes, lo que promueve una estructura modular y mantenible.
+
+
+
 ## Instalación
 
 ### `npm install`
