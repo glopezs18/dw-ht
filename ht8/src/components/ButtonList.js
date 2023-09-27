@@ -2,12 +2,13 @@ import React, { Component } from 'react'
 
 class ButtonList extends Component {
     render() {
-        let categoriesDatalist = this.props.categories.map(category => {
+        let categoriesDatalist = this.props.categories.map((category, key) => {
             return(
                 <button
-					type='button'
-					className='btn-category'
-					onClick={() => this.props.filterCategory(category)}
+                    data-id={key}
+					type='button'                    
+					className={`btn-category${(this.props.active == key) ? ' active' : ''}`}
+					onClick={() => {this.props.filterCategory(category); this.props.toggle(key)}}
 					key={category}
 				>
 					{category}

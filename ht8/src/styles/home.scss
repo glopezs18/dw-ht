@@ -1,7 +1,9 @@
 .banner-home {
-	background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/041.webp');
+	background-image: url('https://www.sipsistema.com.br/imagens/produtos/sip-supermercado/banner-supermercado.jpeg');
 	height: 400px;
 	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .mask {
@@ -124,7 +126,7 @@ img {
 		font-size: 16px;
 		transition: all 0.4s cubic-bezier(1, -0, 0.6, 1.35);
 
-		&:hover {
+		&:hover, &.active {
 			background-color: rgba(227, 131, 86, 0.33);
 		}
 
