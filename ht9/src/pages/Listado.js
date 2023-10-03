@@ -21,42 +21,42 @@ function Listado() {
 
             <div>
                 <section >
-                    <div class="container py-5">
-                        <div class="row justify-content-center mb-3">
+                    <div className="container py-5">
+                        <div className="row justify-content-center mb-3">
                             {list.map(item => {
                                 return (
-                                    <div class="col-md-12 col-xl-10" style={{marginBottom: "10px"}} key={item.id}>
-                                        <div class="card shadow-0 border rounded-3">
-                                            <div class="card-body">
-                                                <div class="row">
-                                                    <div class="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
-                                                        <div class="bg-image hover-zoom ripple rounded ripple-surface">
+                                    <div className="col-md-12 col-xl-10" style={{marginBottom: "10px"}} key={item.id}>
+                                        <div className="card shadow-0 border rounded-3">
+                                            <div className="card-body">
+                                                <div className="row">
+                                                    <div className="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0">
+                                                        <div className="bg-image hover-zoom ripple rounded ripple-surface">
                                                             <div style={{width: "210px", height:"140px", backgroundImage: `url(${item.image})`, backgroundSize: "cover"}}></div>
                                                             {/* <img src={item.image}
-                                                                class="w-100" /> */}
+                                                                className="w-100" /> */}
                                                             <a href="#!">
-                                                                <div class="hover-overlay">
-                                                                    <div class="mask" style={{ backgroundColor: "rgba(253, 253, 253, 0.15)" }}></div>
+                                                                <div className="hover-overlay">
+                                                                    <div className="mask" style={{ backgroundColor: "rgba(253, 253, 253, 0.15)" }}></div>
                                                                 </div>
                                                             </a>
                                                         </div>
                                                     </div>
-                                                    <div class="col-md-6 col-lg-6 col-xl-6" style={{ textAlign: "left" }}>
+                                                    <div className="col-md-6 col-lg-6 col-xl-6" style={{ textAlign: "left" }}>
                                                         <h5>{item.title}</h5>
-                                                        <div class="mt-1 mb-0 text-muted small">
+                                                        <div className="mt-1 mb-0 text-muted small">
                                                             <span>{item.category}</span>
                                                         </div>
-                                                        <p class="mb-4 mb-md-0">
+                                                        <p className="mb-4 mb-md-0">
                                                             {item.description}
                                                         </p>
                                                     </div>
-                                                    <div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start" style={{ textAlign: "center" }}>
-                                                        <div class="flex-row align-items-center mb-1">
-                                                            <h4 class="mb-1 me-1">${item.price}</h4>
+                                                    <div className="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start" style={{ textAlign: "center" }}>
+                                                        <div className="flex-row align-items-center mb-1">
+                                                            <h4 className="mb-1 me-1">${item.price}</h4>
                                                         </div>
-                                                        <h6 class="text-success">Envío gratis</h6>
-                                                        <div class="d-flex flex-column mt-4">
-                                                            <Link to={`/list/${item.id}`} style={{color: "#fff", textDecoration: "none"}} relative="route"><button class="btn btn-primary btn-sm" type="button">Detalles</button></Link>
+                                                        <h6 className="text-success">Envío gratis</h6>
+                                                        <div className="d-flex flex-column mt-4">
+                                                            <Link to={`/list/${item.id}`} style={{color: "#fff", textDecoration: "none"}} relative="route"><button className="btn btn-primary btn-sm" type="button">Detalles</button></Link>
                                                         </div>
                                                     </div>
                                                 </div>

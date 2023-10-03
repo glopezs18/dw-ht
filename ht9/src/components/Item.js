@@ -21,20 +21,20 @@ function Item() {
     function showItem() {
         return (
             <div>
-                <div class="container" style={{margin: "40px 0"}}>
-                    <div class="row">
-                        <div class="col-sm-4 item-photo">
+                <div className="container" style={{margin: "40px 0"}}>
+                    <div className="row">
+                        <div className="col-sm-4 item-photo">
                             <img style={{ width: "100%" }} src={item.image} />
                         </div>
-                        <div class="col-sm-8" style={{border:"0px solid gray", padding: "50px"}}>
+                        <div className="col-sm-8" style={{border:"0px solid gray", padding: "50px"}}>
                             <h3 style={{marginTop: "20px"}}>{item.title}</h3>
                             <h5 style={{ color: "#337ab7" }}>{item.category}</h5>
 
-                            <h6 class="title-price"><small>PRECIO</small></h6>
+                            <h6 className="title-price"><small>PRECIO</small></h6>
                             <h3 style={{ marginTop: "0px" }}>U$S {item.price}</h3>
 
-                            <ul class="menu-items">
-                                <li class="active">Detalle del producto</li>
+                            <ul className="menu-items">
+                                <li className="active">Detalle del producto</li>
                             </ul>
                             <div style={{width:"100%", borderTop: "1px solid silver"}}>
                                 <p style={{ padding: "15px" }}>
