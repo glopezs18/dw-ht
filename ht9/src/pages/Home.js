@@ -31,7 +31,7 @@ function Home() {
                             <div className="carousel-caption">
                                 <h1>Calidad y comodidad en cada prenda que vestimos</h1>
                                 <p>En nuestra tienda en línea, nos comprometemos a brindarte prendas de alta calidad que garantizan comodidad durante todo el día.</p>
-                                <p><a className="btn btn-lg btn-site" href="#">Ver más</a></p>
+                                <p><a className="btn btn-lg btn-site" href="#ClothesThings">Ver más</a></p>
                             </div>
                         </div>
                     </div>
@@ -41,7 +41,7 @@ function Home() {
                             <div className="carousel-caption text-end">
                                 <h1>Expresa tu personalidad a través de tu ropa.</h1>
                                 <p>Nuestra amplia selección de estilos te permite expresar tu autenticidad y personalidad a través de tu elección de ropa.</p>
-                                <p><a className="btn btn-lg btn-site" href="#">Ver más</a></p>
+                                <p><a className="btn btn-lg btn-site" href="#ClothesThings">Ver más</a></p>
                             </div>
                         </div>
                     </div>
@@ -83,7 +83,7 @@ function Home() {
                     </div>
                 </div>
 
-                <div className="featurette-divider"></div>
+                <div id="ClothesThings" className="featurette-divider"></div>
 
                 <div className="row featurette">
                     <div className="col-md-7">
@@ -91,7 +91,7 @@ function Home() {
                         <p className="lead">Descubre nuestra colección de tendencia, siempre actualizada con las últimas y más elegantes prendas de moda para mantenerte a la vanguardia.</p>
                     </div>
                     <div className="col-md-5">
-                        <img width="100%" src="https://images.unsplash.com/photo-1555529771-835f59fc5efe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" />
+                        <img width="100%" src="https://images.unsplash.com/photo-1556011299-650a931cbfae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" />
 
                     </div>
                 </div>
@@ -105,7 +105,7 @@ function Home() {
                         <p className="lead">Ya sea primavera, verano, otoño o invierno, encontrarás la ropa perfecta en nuestra tienda para lucir bien en cualquier estación.</p>
                     </div>
                     <div className="col-md-5 order-md-1">
-                    <img width="100%" src="https://images.unsplash.com/photo-1472666260353-23210544cdf1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTg5fHxjbG90aGVzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" />
+                    <img width="100%" src="https://images.unsplash.com/photo-1520006403909-838d6b92c22e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" />
 
                     </div>
                 </div>
@@ -118,7 +118,7 @@ function Home() {
                         <p className="lead">Nuestra selección de ropa combina a la perfección la elegancia con un toque casual, permitiéndote lucir sofisticado sin esfuerzo en cualquier ocasión.</p>
                     </div>
                     <div className="col-md-5">
-                        <img src="https://images.unsplash.com/photo-1555069519-127aadedf1ee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjc4fHxjbG90aGVzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" />
+                        <img width="100%" src="https://images.unsplash.com/photo-1600091106710-7be582d40984?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80" />
 
                     </div>
                 </div>
