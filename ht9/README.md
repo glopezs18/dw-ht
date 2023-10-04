@@ -1,4 +1,4 @@
-## Descripción de Hoja de trabajo No. 8
+## Descripción de Hoja de trabajo No. 9
 
 En esta tarea, se aprendió a diseñar y crear una página web interactiva utilizando el framework de JavaScript React. El objetivo principal es aplicar nuestros conocimientos en el desarrollo web front-end para construir una aplicación que consta de cuatro vistas distintas y un pequeño catálogo en línea que se alimenta de datos de una API externa consumida por el método fetch. Utilizando las herramientas de React, como BrowserRouter, Router, Link, y más, para proporcionar una experiencia de navegación fluida y atractiva para los usuarios.
 
