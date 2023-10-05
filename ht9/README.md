@@ -25,3 +25,4 @@ También es posible que vea errores de pelusa en la consola.
 ## Nombre de alumno
 
 - Giancarlo André López Silva / 9490-18-314 / Sección A
+- Elmer Andrée Belloso Nimatuj / 9490-17-12488 / Sección B

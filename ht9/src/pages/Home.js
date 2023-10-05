@@ -64,22 +64,19 @@ function Home() {
                         <img className="img-characteristics" src="https://images.unsplash.com/photo-1612423284934-2850a4ea6b0f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"/>
 
                         <h2>Variedad de Estilos</h2>
-                        <p>Explora nuestra amplia gama de estilos, desde elegante hasta casual, para encontrar la ropa perfecta que se adapte a tu personalidad y ocasión.</p>
-                        <p><a className="btn btn-secondary" href="#">Ver productos »</a></p>
+                        <p>Explora nuestra amplia gama de estilos, desde elegante hasta casual, para encontrar la ropa perfecta que se adapte a tu personalidad y ocasión.</p>                        
                     </div>
                     <div className="col-lg-4">
                     <img className="img-characteristics" src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2073&q=80"/>
 
                         <h2>Comodidad Inigualable</h2>
-                        <p>Nuestras prendas están diseñadas con materiales de alta calidad para ofrecer una comodidad incomparable, para que puedas sentirte genial todo el día.</p>
-                        <p><a className="btn btn-secondary" href="#">Ver productos »</a></p>
+                        <p>Nuestras prendas están diseñadas con materiales de alta calidad para ofrecer una comodidad incomparable, para que puedas sentirte genial todo el día.</p>                        
                     </div>
                     <div className="col-lg-4">
                     <img className="img-characteristics" src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"/>
 
                         <h2>Calidad Duradera</h2>
-                        <p>Te garantizamos que nuestras prendas están hechas para durar, con atención a cada detalle y materiales que resisten el paso del tiempo.</p>
-                        <p><a className="btn btn-secondary" href="#">Ver productos »</a></p>
+                        <p>Te garantizamos que nuestras prendas están hechas para durar, con atención a cada detalle y materiales que resisten el paso del tiempo.</p>                        
                     </div>
                 </div>
 
